@@ -4,11 +4,11 @@ var notes, notesImg;
 var robber_ani, robbing_ri;
 
 function preload(){
-bgImg = loadImage("assets/bg.jpg");
-robberImg = loadImage("assets/bob.png");
-notesImg = loadImage("assets/notes.png");
-robber_ani = loadAnimation("assets/l1.png", "assets/l2.png", "assets/l3.png", "assets/l4.png")
-robbing_ri = loadAnimation("assets/r1.png", "assets/r2.png", "assets/r3.png", "assets/r4.png")
+bgImg = loadImage("bg.jpg");
+robberImg = loadImage("bob.png");
+notesImg = loadImage("notes.png");
+robber_ani = loadAnimation("l1.png", "l2.png", "l3.png", "l4.png")
+robbing_ri = loadAnimation("r1.png", "r2.png", "r3.png", "r4.png")
 }
 
 
